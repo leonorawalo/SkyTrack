@@ -1,6 +1,4 @@
 # SkyTrack
-
----
 ## Description
 
 SkyTrack is a Django-powered web app that fetches and displays real-time weather data using the OpenWeatherMap API. Includes RESTful endpoints, a basic Bootstrap UI, and Postman documentation.
