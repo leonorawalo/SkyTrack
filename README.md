@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 ### 4. Cnfigure API Key
 ```bash
-OPENWEATHER_API_KEY = 'your_api_key_here'
+OPENWEATHER_API_KEY = 'ae936f4eb506aa39d112fbbec2cd0bdf'
 ```
 ### 5. Run Migrations
 ```bash
@@ -42,3 +42,4 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+### 7. Check it out at http://127.0.0.1:8000/
