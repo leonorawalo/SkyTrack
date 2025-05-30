@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <title>Weather Dashboard</title>
     <style>
+        h2 {
+            text-align: center;
+            color: #333;
+            font-style: italic;
+            font-display: swap;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
         body {
             font-family: Arial, sans-serif;
             padding: 2rem;
             background-color: #f0f4f8;
         }
         .container {
+            background-color: rgb(74, 180, 241);
             max-width: 600px;
             margin: 0 auto;
             background: white;
@@ -39,9 +47,9 @@
 </head>
 <body>
     <div class="container">
-        <h2>Weather Dashboard</h2>
+        <h2>SkyTrack</h2>
         <form method="GET" action=".">
-            <input type="text" name="city" placeholder="Enter city name" required>
+            <input type="text" name="city" placeholder="Enter city name" required><br><br>
             
             <label>
                 <input type="radio" name="type" value="current" checked>
