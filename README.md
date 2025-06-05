@@ -18,21 +18,21 @@ SkyTrack is a Django-powered web app that fetches and displays real-time weather
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-dashboard.git
-cd weather-dashboard
+git clone https://github.com/leonorawalo/NewRepo.git
+cd NewRepo
 ```
 ### 2. Create a Virtual Environment
 ```bash
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
+python -m venv venv  #if you don't have Python, run 'python' without arguments to install it
+source venv/Scripts/activate   
 ```
 ### 3. Install Dependencies
 ```bash
-pip install -r requirements.txt
+pip install djangorestframework requests
 ```
-### 4. Cnfigure API Key
+### 4. Configure API Key
 ```bash
-OPENWEATHER_API_KEY = 'your_api_key_here'
+OPENWEATHER_API_KEY = 'ae936f4eb506aa39d112fbbec2cd0bdf'
 ```
 ### 5. Run Migrations
 ```bash
@@ -42,3 +42,5 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+### 7.Run the app at http://127.0.0.1:8000/
+### 8.Look up weather!:))
