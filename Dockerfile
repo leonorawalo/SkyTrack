@@ -1,21 +1,19 @@
-# Dockerfile
-
-# 1. Use official Python image
+# Use official Python image
 FROM python:3.11-slim
 
-# 2. Set environment variables
+# Environment configs
 ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED=1
 
-# 3. Set working directory
+# Set workdir
 WORKDIR /app
 
-# 4. Install dependencies
+# Install dependencies
 COPY requirements.txt .
-RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
-# 5. Copy project code
+# Copy project files
 COPY . .
 
-# 6. Run server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# Expose the port
+EXPOSE 8000
