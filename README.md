@@ -18,8 +18,8 @@ SkyTrack is a Django-powered web app that fetches and displays real-time weather
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/leonorawalo/NewRepo.git
-cd NewRepo
+git clone https://github.com/leonorawalo/SkyTrack.git
+cd SkyTrack
 ```
 ### 2. Create a Virtual Environment
 ```bash
